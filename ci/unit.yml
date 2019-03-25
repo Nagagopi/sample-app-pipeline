@@ -7,6 +7,6 @@ image_resource:
 
 inputs:
 - name: concourse-demo-app-master
-  path: gopath/root/sample-app-pipeline
+  path: go/src/github.com/xchapter7x/concourse-demo-app
 run:
-  path: /root/sample-app-pipeline/ci/run-unit-tests
+  path: go/src/github.com/xchapter7x/concourse-demo-app/ci/run-unit-tests
