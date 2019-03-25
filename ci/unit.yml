@@ -7,6 +7,6 @@ image_resource:
 
 inputs:
 - name: concourse-demo-app-master
-  path: go/src/github.com/Nagagopi/sample-app-pipeline
+  path: go/src/github.com/Nagagopi/concourse-demo-app
 run:
-  path: go/src/github.com/Nagagopi/sample-app-pipeline/ci/run-unit-tests
+  path: go/src/github.com/Nagagopi/concourse-demo-app/ci/run-unit-tests
