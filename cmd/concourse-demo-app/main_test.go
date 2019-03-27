@@ -7,7 +7,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/Nagagopi/concourse-demo-app/cmd/concourse-demo-app"
+	. "github.com/Nagagopi/sample-app-pipeline/tree/master/cmd/concourse-demo-app"
 )
 
 var _ = Describe("main", func() {
